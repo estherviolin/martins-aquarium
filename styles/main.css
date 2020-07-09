@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    padding: 1rem;
+    
+}
+.siteLogo {
+    height: 10rem;
+    padding: 1rem;
+}
+.siteTitle {
+    font-family: serif;
+    color: darkblue;
+    font-size: 26px;
+    margin: 5rem;
+}
+
