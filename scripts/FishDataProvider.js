@@ -7,15 +7,17 @@ const fishCollection = [
     diet: "pelagic fish"
     },
     {
-        name: "Zelda",
-        species: "zebrafish",
-        length: "3 cm",
-        location: "South Asia",
-        diet: "plankton, larvae, crustaceans"
-        },
-        name: "",
-        species: "",
-        length: "",
-        location: "",
-        diet: ""
+    name: "Zelda",
+    species: "zebrafish",
+    length: "3 cm",
+    location: "South Asia",
+    diet: "plankton, larvae, crustaceans"
+    },
+    {
+    name: "Georgia",
+    species: "guppy",
+    length: "5 cm",
+    location: "South America",
+    diet: "algae, plants, larvae, minerals"
+    }
 ]
