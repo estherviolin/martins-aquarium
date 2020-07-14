@@ -20,7 +20,11 @@ const fishCollection = [
     species: "guppy",
     length: "5 cm",
     location: "South America",
-    diet: "algae, plants, larvae, minerals"
+    diet: "algae, plants, larvae, minerals",
     image: "./images/guppy.jpg" 
     }
 ]
+
+export const useFish = () => {
+    return fishCollection
+}
