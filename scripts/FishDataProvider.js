@@ -28,3 +28,7 @@ const fishCollection = [
 export const useFish = () => {
     return fishCollection
 }
+
+export const addFish = (fish) => {
+    fishCollection.push(fish)
+}

@@ -1,6 +1,6 @@
 // function to convert object into html
 
-export const fish = (fishObj) => {
+export const FishAsHTML = (fishObj) => {
     return `
         <section class="fish">
             <div><img class="fish__image" src="${fishObj.image}"/></div>
