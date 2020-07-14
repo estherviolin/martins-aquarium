@@ -1,0 +1,1 @@
+// converts tip object into tip HTML representation

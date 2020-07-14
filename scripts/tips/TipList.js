@@ -1,0 +1,1 @@
+//creates list HTML element for all tips
