@@ -4,14 +4,16 @@ const fishCollection = [
     species: "swordfish",
     length: "3 m",
     location: "Atlantic, Pacific, Indian Oceans",
-    diet: "pelagic fish"
+    diet: "pelagic fish",
+    image: "./images/swordfish.jpg"
     },
     {
     name: "Zelda",
     species: "zebrafish",
     length: "3 cm",
     location: "South Asia",
-    diet: "plankton, larvae, crustaceans"
+    diet: "plankton, larvae, crustaceans",
+    image: "./images/zebrafish.jpg"
     },
     {
     name: "Georgia",
@@ -19,5 +21,6 @@ const fishCollection = [
     length: "5 cm",
     location: "South America",
     diet: "algae, plants, larvae, minerals"
+    image: "./images/guppy.jpg" 
     }
 ]
