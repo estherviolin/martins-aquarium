@@ -10,7 +10,48 @@
 .siteTitle {
     font-family: serif;
     color: darkblue;
-    font-size: 26px;
+    font-size: 52px;
     margin: 5rem;
 }
+.page {
+    display: flex;
+}
+.left--page {
+    flex: 2;
+    border: 3px dotted darkblue;
+    margin: 0rem 5rem;
+}
+.right--page {
+    flex: 1;
+    border: 3px dotted darkblue;
+    margin: 0rem 5rem 0rem 0rem;
+}
 
+.fish__image {
+    height: 20rem;
+}
+.fish {
+    border: 3px dotted lightskyblue;
+    padding: 5rem;
+    margin: 5rem;
+}
+.quotes {
+    border: 3px dotted lightskyblue;
+    padding: 5rem;
+    margin: 5rem;
+    font-size: 26px;
+    font-style: italic;
+}
+.quote__card {
+    padding: 5rem;
+}
+.locations {
+    border: 3px dotted darkblue;
+    padding: 5rem;
+    margin: 5rem;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.location__image {
+    height: 20rem;
+}
