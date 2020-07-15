@@ -6,7 +6,7 @@ export const LocationAsHTML = (locationObj) => {
         <section class="location card">
             <div><img class="location__image" src="${locationObj.image}"/></div>
             <div class="location__name">${locationObj.name}</div>
-            <div class="location__url" href="https://www.visitflorida.com/en-us/cities/key-west.html">${locationObj.link}</div>
+            <a class="location__url" href="${locationObj.link}">more info</a>
             <div class="location__description">${locationObj.description}</div>
         </section>
     
