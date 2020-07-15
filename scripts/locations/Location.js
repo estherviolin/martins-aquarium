@@ -1,7 +1,7 @@
 //converts location object into HTML rep
 
 export const LocationAsHTML = (locationObj) => {
-
+//figure out how to make links work
     return `
         <section class="location card">
             <div><img class="location__image" src="${locationObj.image}"/></div>
