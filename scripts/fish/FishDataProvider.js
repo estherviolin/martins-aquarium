@@ -24,12 +24,12 @@ const fishCollection = [
     image: "./images/guppy.jpg" 
     }
 ]
-
+//function to return copy of array
 export const useFish = () => {
-    return fishCollection
+    return fishCollection.slice()
 }
 
-
+//function to return new array of only holy fish
 export const mostHolyFish = () => {
     // 3, 6, 9, 12, etc... fish
     const holyFish = []
@@ -43,7 +43,7 @@ export const mostHolyFish = () => {
 
     return holyFish
 }
-
+//function to return new array of only soldier fish
 export const soldierFish = () => {
     // 5, 10, 15, 20, 25, etc... fish
     const soldiers = []
@@ -56,6 +56,7 @@ export const soldierFish = () => {
     return soldiers
 }
 
+//function to return new array of only regular fish
 export const nonHolyFish = () => {
     // Any fish not a multiple of 3 or 5
     const regularFish = []

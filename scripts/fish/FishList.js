@@ -4,6 +4,7 @@ import {FishAsHTML} from "./Fish.js"
 
 const contentElement = document.querySelector(".left--page")
 
+//function that adds fish to DOM
 const addFishtoDOM = (theArrayOfFish) => {
     let fishHTMLRep = ""
 
@@ -21,8 +22,8 @@ const addFishtoDOM = (theArrayOfFish) => {
 
 
 export const FishList = () => {
-    //gets referense to element on the DOM
     
+    //array of holy fish to be used as argument in addFishtoDom function
     const holyFish = mostHolyFish()
     addFishtoDOM(holyFish)
 

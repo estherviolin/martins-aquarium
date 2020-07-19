@@ -31,6 +31,7 @@ export const useLocations = () => {
 
 }
 
+//not using 
 export const addLocation = (location) => {
 
     arrayOfLocations.push(location)

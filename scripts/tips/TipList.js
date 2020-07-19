@@ -7,8 +7,10 @@ export const TipList = () => {
 
     const contentElement = document.querySelector(".right--page")
 
+    //array of tips
     const tips = useTips()
 
+    //HTML string
     let tipHTMLReps = ""
 
     for(const currentTipObj of tips) {
