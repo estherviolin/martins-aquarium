@@ -11,16 +11,16 @@ export const TipList = () => {
     const tips = useTips()
 
     //HTML string
-    let tipHTMLReps = ""
+    // let tipHTMLReps = ""
 
-    for(const currentTipObj of tips) {
-        tipHTMLReps += TipAsHTML(currentTipObj)
-    }
+    // for(const currentTipObj of tips) {
+    //     tipHTMLReps += TipAsHTML(currentTipObj)
+    // }
 
     contentElement.innerHTML += 
     `
     <aside class="tipSection">
-        ${tipHTMLReps}
+        ${tips.map(currentTipObj => TipAsHTML(currentTipObj))}
     </aside>
     
 

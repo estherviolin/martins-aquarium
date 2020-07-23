@@ -9,17 +9,17 @@ export const LocationList = () => {
 
     const locations = useLocations()
 
-    let locationHTMLReps = ""
+    // let locationHTMLReps = ""
 
-    for(const currentLocationObj of locations) {
+    // for(const currentLocationObj of locations) {
 
-        locationHTMLReps += LocationAsHTML(currentLocationObj)
-    }
+    //     locationHTMLReps += LocationAsHTML(currentLocationObj)
+    // }
 
     contentElement.innerHTML += 
     `
     <article class="locations">
-        ${locationHTMLReps}
+        ${locations.map(currentLocationObj => LocationAsHTML(currentLocationObj))}
     </article>
     `
 }

@@ -6,15 +6,10 @@ const contentElement = document.querySelector(".left--page")
 
 //function that adds fish to DOM
 const addFishtoDOM = (theArrayOfFish) => {
-    let fishHTMLRep = ""
-
-    for(const currentFishObj of theArrayOfFish) {
-        fishHTMLRep += FishAsHTML(currentFishObj)
-    }
-
+    
     contentElement.innerHTML += `
         <article class="fishSection">
-            ${fishHTMLRep}
+            ${theArrayOfFish.map(currentFishObj => FishAsHTML(currentFishObj))}
         </article>
     
     `
